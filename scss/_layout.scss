@@ -1,0 +1,1084 @@
+//**************HEADER/NAV**************
+.agencia {
+    &__padding {
+        padding: 0px;
+    }
+
+    &__img {
+        width: 100%;
+
+    }
+
+    @include mobile {
+        width: 100%;
+        height: 200px;
+
+    }
+
+    &__itens {
+        position: absolute;
+    }
+
+    &__caixa {
+        display: flex;
+
+        @include mobile {
+            padding-top: 5px;
+            padding-left: 5px;
+        }
+
+    }
+
+    &__titulo {
+        color: white;
+        font-size: 28px;
+        padding-left: 120px;
+        padding-top: 33px;
+        @include poppins;
+
+        @include mobile {
+            font-size: 12px;
+            padding: 0;
+
+        }
+
+        @include tablet {
+            padding-left: 25px;
+        }
+    }
+
+    &__lista {
+        display: flex;
+        text-transform: uppercase;
+        @include poppins;
+        padding-top: 55px;
+
+
+        @include mobile {
+            display: none;
+
+        }
+
+    }
+
+    &__link {
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+
+        &:hover {
+            color: #F21162;
+        }
+
+        @include tablet {
+            padding: 9px;
+        }
+    }
+
+    &__card {
+        color: white;
+        text-align: center;
+        margin-top: 200px;
+
+        @include mobile {
+            margin-top: 5px;
+
+        }
+
+        @include tablet {
+            margin-top: 40px;
+        }
+
+        @include desktop {
+            margin-top: 150px;
+        }
+    }
+
+    &__subtitulo {
+        @include poppins;
+        font-size: 72px;
+        margin-bottom: 63px;
+        line-height: 5.1rem;
+
+        @include mobile {
+            font-size: 15px;
+            margin-bottom: 5px;
+            padding-left: 48px;
+            padding-right: 49px;
+            line-height: normal;
+
+        }
+
+        @include tablet {
+            font-size: 30px;
+            line-height: normal;
+            margin-bottom: 20px
+        }
+    }
+
+    &__paragrafo {
+        @include poppinsRegular;
+        font-size: 16px;
+        margin-bottom: 34px;
+        line-height: initial;
+        letter-spacing: 1px;
+
+        @include mobile {
+            font-size: 10px;
+            padding-left: 5px;
+            padding-right: 5px;
+            margin-bottom: 10px;
+            line-height: normal;
+        }
+    }
+
+    &__submit {
+        @include button;
+        background-color: #F21162;
+        border-color: #F21162;
+
+        &:hover {
+            color: #F21162;
+            background-color: #fff;
+            border: solid #F21162 1px;
+        }
+
+
+    }
+
+    &__submit2 {
+        @include button;
+        border-color: #fff;
+
+        &:hover {
+            color: #000;
+            background-color: #fff;
+            border: solid #000 1px;
+        }
+
+    }
+
+}
+
+
+
+//**************MAIN/SERVICES**************
+
+
+
+.services {
+
+    margin-top: 130px;
+    justify-items: center;
+    justify-content: center;
+
+    @include mobile {
+        margin-top: 60px;
+    }
+
+    @include tablet {
+        margin-top: 100px;
+    }
+
+
+    &__descrition {
+        padding: 0px 310px 0 310px;
+        margin-bottom: 80px;
+        text-align: center;
+
+        @include mobile {
+            padding: 0;
+        }
+
+        @include tablet {
+            padding: 0;
+        }
+
+    }
+
+    &__titulo {
+        font-size: 44px;
+        margin-bottom: 20px;
+        @include poppins;
+
+        @include mobile {
+            font-size: 30px;
+        }
+    }
+
+    &__paragrafo {
+        font-size: 16px;
+        color: #798294;
+        line-height: initial;
+        @include poppinsRegular;
+
+        @include mobile {
+            font-size: 12px;
+        }
+    }
+
+    &__card {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        width: 100%;
+        justify-content: center;
+    }
+
+    &__img {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 28px;
+
+        @include mobile {
+            height: 85px;
+            padding-left: 85px;
+            padding-right: 85px;
+        }
+    }
+
+    &__web {
+        @include card;
+        border-radius: 3px;
+        box-shadow: 2px 2px 2px 1px rgba(85, 84, 84, 0.267);
+        margin-left: 26px;
+        margin-top: 32px;
+        padding: 40px;
+
+        @include mobile {
+            width: 100%;
+            margin-top: 20px;
+            margin-bottom: 10px;
+
+        }
+
+        @include tablet {
+            width: 334px;
+        }
+    }
+
+    &__subtitulos {
+        @include poppins;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+
+    &__p {
+        font-size: 14px;
+        color: #868FA1;
+        @include poppinsRegular;
+        line-height: initial;
+    }
+
+}
+
+
+.banner {
+    margin-top: 130px;
+    background-image: url(/assets/imagens/banner2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 367px;
+
+    @include mobile {
+        width: 100%;
+        height: 80px;
+        margin-top: 40px;
+        //display: none;
+    }
+
+    &__avaliacao {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        padding-top: 126px;
+        text-align: center;
+
+        @include mobile {
+            width: 100%;
+            padding: 0;
+        }
+
+        @include tablet {
+            padding-top: 40px;
+        }
+    }
+
+    &__total {
+
+        padding: 0px 40px;
+
+        @include mobile {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        @include tablet {
+            padding: 0px 10px;
+        }
+    }
+
+    &__numero {
+        @include poppins;
+        color: #FFF;
+        font-size: 66px;
+
+        @include mobile {
+            font-size: 20px;
+            padding: 10px;
+        }
+
+        @include tablet {
+            font-size: 55px;
+        }
+    }
+
+    &__line {
+        margin: 16px 38px 16px 38px;
+        border-bottom: 2px solid #F21162;
+
+        @include mobile {
+            margin: 5px;
+        }
+    }
+
+    &__comentario {
+        @include poppins;
+        color: #FFF;
+        text-transform: uppercase;
+
+        @include mobile {
+            font-size: 10px;
+            padding: 5px;
+        }
+    }
+}
+
+
+
+//**************MAIN/PORTIFOLIO**************
+
+
+
+.portifolio {
+
+    &__conteudo {
+        display: block;
+        text-align: center;
+        align-items: center;
+        margin-top: 130px;
+
+        @include mobile {
+            margin-top: 60px;
+        }
+
+        @include tablet {
+            margin-top: 0;
+        }
+    }
+
+    &__titulo {
+        @include poppins;
+        font-size: 44px;
+
+        @include mobile {
+            font-size: 30px;
+        }
+    }
+
+    &__descrition {
+        @include poppinsRegular;
+        font-size: 16px;
+        color: #868FA1;
+        margin-top: 20px;
+
+        @include mobile {
+            font-size: 12px;
+        }
+    }
+
+    &__banner {
+        display: flex;
+        width: 100%;
+        margin-top: 80px;
+
+    }
+
+    &__img1 {
+        position: relative;
+
+        &:hover {
+            .portifolio__fig {
+                opacity: 1;
+                height: 100%;
+            }
+
+        }
+
+        @include mobile {
+            .portifolio__fig {
+                opacity: 1;
+                height: 100%;
+            }
+        }
+    }
+
+    &__img {
+        width: 100%;
+        height: 100%;
+    }
+
+    &__fig {
+        color: white;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: flex-end;
+        width: 100%;
+        height: 0;
+        background: rgba($color: #F21162, $alpha: 0.8);
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        transition: linear 0.25s;
+    }
+
+    &__embrulho {
+        width: 360px;
+        height: auto;
+        margin-bottom: 64px;
+
+        @include mobile {
+            width: auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        @include tablet {
+            width: auto;
+            padding: 20px;
+            text-align: center;
+        }
+    }
+
+    &__subtitulo {
+        @include poppins;
+        font-size: 28px;
+        margin-bottom: 16px;
+
+        @include tablet {
+            font-size: 20px;
+        }
+    }
+
+    &__paragrafo {
+        @include poppinsRegular;
+        font-size: 16px;
+        line-height: initial;
+
+        @include tablet {
+            font-size: 12px;
+        }
+    }
+
+}
+
+.clientes {
+    &__listen {
+        text-align: center;
+        margin-top: 130px;
+
+        @include mobile {
+            margin-top: 60px;
+        }
+    }
+
+    &__titulo {
+        @include poppins;
+        font-size: 48px;
+
+        @include mobile {
+            font-size: 30px;
+        }
+    }
+
+    &__descrition {
+        @include poppinsRegular;
+        font-size: 16px;
+        color: #868FA1;
+        margin-top: 20px;
+
+        @include mobile {
+            font-size: 12px;
+        }
+    }
+}
+
+.card {
+    margin-top: 80px;
+    width: 100%;
+    height: 360px;
+    display: flex;
+    box-shadow: 2px 2px 2px 1px rgb(85 84 84 / 27%);
+
+    @include mobile {
+        width: 100%;
+    }
+
+
+    &__titulo {
+        display: flex;
+        padding-left: 45px;
+        padding-top: 60px;
+        padding-bottom: 20px;
+        align-items: center;
+
+        @include mobile {
+            width: 30%;
+        }
+    }
+
+    &__info {
+        padding: 10px;
+        line-height: initial;
+    }
+
+    &__img {
+        //width: 90px;
+        height: 90px;
+        border-radius: 60px;
+
+        @include mobile {
+            height: auto;
+        }
+    }
+
+    &__nome {
+        @include poppins;
+        font-size: 18px;
+
+    }
+
+    &__profision {
+        @include poppins;
+        font-size: 12px;
+        color: #F21162;
+
+        @include mobile {
+            font-size: 9px;
+        }
+    }
+
+    &__descrition {
+        line-height: initial;
+        color: #868FA1;
+        padding-left: 50px;
+        padding-right: 50px;
+        @include poppinsRegular;
+    }
+}
+
+.suggestions {
+    width: 1200px;
+    height: 446px;
+    background-color: #F21162;
+    border-radius: 10px;
+    margin-top: 130px;
+    align-items: center;
+
+    @include mobile {
+        width: 100%;
+        height: auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-top: 65px;
+    }
+
+
+
+    &__anucio {
+        text-align: center;
+
+
+    }
+
+    &__titulo {
+        @include poppins;
+        font-size: 44px;
+        color: #FFF;
+
+        @include mobile {
+            font-size: 29px;
+        }
+
+        @include tablet {
+            font-size: 37px;
+        }
+    }
+
+    &__paragrafo {
+        @include poppinsRegular;
+        font-size: 16px;
+        color: #FFF;
+        padding-left: 19%;
+        padding-right: 19%;
+        margin-top: 23px;
+        line-height: initial;
+
+        @include mobile {
+            padding: 0;
+        }
+
+    }
+
+    &__botao {
+        margin-top: 23px;
+    }
+
+    &__submit {
+        @include button;
+        border-color: #FFF;
+        margin-right: 8px;
+
+        &:hover {
+            color: #000;
+            background-color: #fff;
+            border: solid #000 1px;
+        }
+    }
+
+    &__submit2 {
+        @include button;
+        border-color: #FFF;
+        margin-left: 8px;
+
+        &:hover {
+            color: #000;
+            background-color: #fff;
+            border: solid #000 1px;
+        }
+    }
+
+}
+
+
+
+//**************MAIN/TEAM**************
+
+
+
+.team {
+    &__intro {
+        margin-top: 130px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+
+        @include mobile {
+            margin-top: 30px;
+        }
+
+    }
+
+    &__titulo {
+        @include poppins;
+        font-size: 44px;
+
+        @include mobile {
+            font-size: 30px;
+        }
+    }
+
+    &__descrition {
+        margin-top: 10px;
+        @include poppinsRegular;
+        font-size: 16px;
+        line-height: initial;
+        color: #868FA1;
+
+        @include mobile {
+            font-size: 12px;
+        }
+    }
+
+    &__card {
+        display: flex;
+        align-content: center;
+        text-align: center;
+        margin-top: 80px;
+    }
+
+    &__img {
+        width: 100%;
+        padding-left: 26px;
+
+        &:first-child {
+            margin-left: none;
+        }
+    }
+
+    &__nome {
+        @include poppins;
+        font-size: 18px;
+        margin-top: 18px;
+    }
+
+    &__paragrafo {
+        @include poppins;
+        margin-top: 5px;
+        font-size: 12px;
+        color: #868FA1;
+        text-transform: uppercase;
+    }
+}
+
+
+
+//**************MAIN/BLOG**************
+
+
+
+.blog {
+
+    &__info {
+        text-align: center;
+    }
+
+    &__titulo-info {
+        @include poppins;
+        font-size: 44px;
+
+        @include mobile {
+            font-size: 30px;
+        }
+    }
+
+    &__descrition-info {
+        @include poppinsRegular;
+        font-size: 16px;
+        line-height: initial;
+        color: #868FA1;
+
+        @include mobile {
+            font-size: 12px;
+        }
+
+        @include tablet {
+            margin-top: 10px;
+        }
+    }
+
+    &__card {
+        margin-top: 80px;
+    }
+
+    &__item-card {
+        margin-left: 26px;
+
+        &:first-child {
+            margin-left: 0px;
+        }
+    }
+
+    &__lista-card {
+        display: flex;
+    }
+
+    &__img-card {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    &__link-card {
+        @include poppins;
+        font-size: 24px;
+        color: #000;
+        text-decoration: none;
+
+        &:hover {
+            color: #F21162;
+        }
+
+        @include mobile {
+            font-size: 20px;
+        }
+
+        @include tablet {
+            font-size: 20px;
+        }
+    }
+
+    &__descrition-card {
+        @include poppinsRegular;
+        font-size: 16px;
+        line-height: initial;
+        color: #868FA1;
+        margin-top: 10px;
+
+        @include mobile {
+            font-size: 12px;
+        }
+
+        @include tablet {
+            font-size: 14px;
+        }
+    }
+}
+
+
+
+//**************MAIN/FORMULARIO**************
+
+
+
+.form {
+    background-color: rgba(32, 43, 67, 0.03);
+    margin-top: 143px;
+    height: 904px;
+
+    @include mobile {
+        margin-top: 30px;
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    &__info {
+        text-align: center;
+        margin-top: 130px;
+
+        @include mobile {
+            margin-top: 30px;
+        }
+    }
+
+    &__titulo-info {
+        @include poppins;
+        font-size: 44px;
+
+        @include mobile {
+            font-size: 30px;
+        }
+    }
+
+    &__descrition-info {
+        @include poppinsRegular;
+        font-size: 16px;
+        line-height: initial;
+        color: #868FA1;
+        margin-top: 10px;
+
+        @include mobile {
+            font-size: 12px;
+        }
+    }
+
+    &__formulario {
+        margin-top: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        @include mobile {
+            margin-top: 30px;
+        }
+    }
+
+    &__nomes-formulario {
+        @include desktop {
+            margin-left: 12%;
+        }
+
+    }
+
+    &__nome-formulario {
+        width: 383px;
+        height: 54px;
+        padding: 13px;
+        margin-left: 26px;
+        @include poppinsRegular;
+        border: none;
+
+        &:first-child {
+            margin-left: 0;
+        }
+
+        @include mobile {
+            width: 100%;
+            margin-left: 0;
+            margin-top: 32px;
+        }
+
+        @include tablet {
+            width: 355px;
+        }
+
+    }
+
+    &__email-formulario {
+        width: 792px;
+        height: 54px;
+        display: block;
+        @include poppinsRegular;
+        border: none;
+        margin-bottom: 32px;
+        padding: 13px;
+
+        @include mobile {
+            width: 100%;
+        }
+
+        @include tablet {
+            width: 100%;
+        }
+    }
+
+    &__text-formulario {
+        display: block;
+        width: 791px;
+        height: 152px;
+        padding: 13px;
+        border: none;
+        @include poppinsRegular;
+
+        @include mobile {
+            width: 100%;
+        }
+
+        @include tablet {
+            width: 100%;
+        }
+    }
+
+    &__button-formulario {
+        display: block;
+        margin-top: 32px;
+
+    }
+
+    &__submit-formulario {
+        @include button;
+        background-color: #F21162;
+
+        &:hover {
+            color: #F21162;
+            background-color: #fff;
+            border: solid #000 1px;
+        }
+    }
+}
+
+
+
+//**************FOOTER**************
+
+
+
+.footer {
+    background-color: #000;
+    height: 336px;
+
+    @include mobile {
+        height: auto;
+    }
+
+    &__agencia {
+        color: #fff;
+        @include poppins;
+        font-size: 28px;
+        margin-right: 58px;
+        text-shadow: 2px 0 black, 3px 0 #f21162;
+
+    }
+
+    &__box {
+
+        padding-top: 90px;
+
+        @include mobile {
+            padding: 45px;
+        }
+    }
+
+    &__lista {
+        display: flex;
+        align-items: center;
+
+        @include mobile {
+            display: none;
+        }
+
+        @include tablet {
+            display: none;
+        }
+    }
+
+    &__linha {
+        padding-left: 24px;
+    }
+
+    &__item {
+        @include poppins;
+        text-transform: uppercase;
+        color: #FFF;
+        font-size: 12px;
+        text-decoration: none;
+
+        &:hover {
+            color: #F21162;
+        }
+    }
+
+    &__contato {
+        display: flex;
+        justify-content: flex-end;
+
+        @include mobile {
+            justify-content: center;
+            margin-top: 30px;
+        }
+    }
+
+    &__img {
+        width: 22px;
+        height: 22px;
+    }
+
+    &__bottom {
+        padding-top: 42px;
+        padding-bottom: 42px;
+        width: 100%;
+        border-bottom: solid 1px #868FA1;
+
+        @include mobile {
+            padding-top: 21px;
+        }
+    }
+
+    &__copy {
+        padding-top: 42px;
+        @include poppins;
+        color: #FFF;
+
+        @include mobile {
+            padding-top: 21px;
+            font-size: 14px;
+            line-height: initial;
+        }
+    }
+
+    &__link {
+        color: #F21162;
+        text-decoration: none;
+
+        &:hover {
+            color: #FFF;
+        }
+    }
+
+}

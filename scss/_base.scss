@@ -1,0 +1,29 @@
+@mixin poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+@mixin poppinsRegular {
+    font-family: 'Poppins', sans-serif;
+}
+
+@mixin poppinsBold {
+    font-family: 'Poppins', sans-serif;
+}
+
+@mixin mobile {
+    @media (min-width:280px)and (max-width: 540px) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (min-width:768px) and (max-width:1024px) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width:1024px) and (max-width: 1285px) {
+        @content;
+    }
+}
