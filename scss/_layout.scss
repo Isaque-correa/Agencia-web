@@ -1,3 +1,8 @@
+body{
+    @include tablet{
+        padding-top: 95px;
+    }
+}
 //**************HEADER/NAV**************
 .agencia {
     &__padding {
@@ -34,16 +39,19 @@
         font-size: 28px;
         padding-left: 120px;
         padding-top: 33px;
+        text-shadow: 3px 0 black, 7px 0 #f21162;
         @include poppins;
 
         @include mobile {
             font-size: 12px;
             padding: 0;
-
+            text-shadow: 1px 0 black, 2px 0 #f21162;
+            
         }
 
         @include tablet {
             padding-left: 25px;
+            padding-top: 20px;
         }
     }
 
@@ -58,7 +66,9 @@
             display: none;
 
         }
-
+        @include tablet{
+            padding: 30px;
+        }
     }
 
     &__link {
@@ -156,6 +166,24 @@
             border: solid #000 1px;
         }
 
+    }
+    
+    &__fixed{
+        padding-bottom: 55px;
+        background: rgba($color: #000000, $alpha: 0.7);
+        @include mobile{
+            padding-bottom: none;
+            background: none;
+            position: absolute;
+            display: contents;
+            
+        }
+        @include tablet{
+            padding-top: 10px;
+            padding-bottom: 10px;
+            
+        }
+        
     }
 
 }
@@ -408,9 +436,10 @@
 
     &__img1 {
         position: relative;
-
         &:hover {
             .portifolio__fig {
+                
+
                 opacity: 1;
                 height: 100%;
             }
