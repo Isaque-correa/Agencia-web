@@ -1,0 +1,27 @@
+{
+  "name": "agencia",
+  "version": "1.0.0",
+  "description": "Uma landing page de uma agência de desenvolvedora web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass:watch": "sass --watch ./scss/main.scss ./css/style.css",
+    "sass:build": "sass ./scss/main.scss ./css/style.css --style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Isaque-correa/Agencia-web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Isaque-correa/Agencia-web/issues"
+  },
+  "homepage": "https://github.com/Isaque-correa/Agencia-web#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.0",
+    "owl.carousel": "^2.3.4",
+    "vendor-copy": "^3.0.1"
+  }
+}
