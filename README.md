@@ -26,8 +26,7 @@ No Javascript foi usado para aplicar o owl.carousel com uma função que transfo
 
 * Desktop:
 
-https://user-images.githubusercontent.com/59630856/129490980-a065ebf7-99be-405e-9816-cf223ce78e58.gif
-
+![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/59630856/129491178-902a04af-d241-4cbb-add9-f743f3d7abf8.gif)
 
 
 
