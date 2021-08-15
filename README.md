@@ -16,7 +16,7 @@ FRAMEWORKS:
 PLUGIN:
 
 * Owl.carousel
-## Descrição de como foi desenvolvido :
+## Descrição do desenvolvimento:
 Nesse projeto eu desenvolvi mais conhecimento sobre o bootstrap como container-fluid, rows, cols, justify-content e fixed.
 Com sass eu aprendi a dividir o projeto de uma forma mais estratégica usando as seguintes divisão base.scss deixando meus mixin e reset dentro, components.scss onde se encontra as estilização dos botões, layout.scss esta a estilização do corpo do site e o main fica todo import do scss.
 O json usei para aplicar dados de imagens, nomes, profissões e descrições, esses dados são aplicados em um slide onde tem uma listas de comentario(Listen to our customers), para diminuir a estrutura do HTML.
