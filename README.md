@@ -32,4 +32,4 @@ No Javascript foi usado para aplicar o owl.carousel com uma função que transfo
 
 * Mobile:
 
-https://user-images.githubusercontent.com/59630856/129491122-9d42d6ce-80d8-4149-ae9f-47e8b74318c2.mp4
+![ezgif com-gif-maker (3) (1)](https://user-images.githubusercontent.com/59630856/129491486-e474607c-dbc6-43ca-a91d-3f19ed2632db.gif)
